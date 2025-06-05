@@ -1,0 +1,23 @@
+import pandas as pd
+
+# fazendo uma limpeza nos códigos - Refactoring
+
+
+# limite_dados_faltantes é só mais um argumento
+def dropar_na(df, coluna, limite_dados_faltantes):
+    if df[coluna].isna().mean() > limite_dados_faltantes:
+        df = df.dropna(subset=[coluna])
+    return df
+
+# fazendo uma limpeza nos códigos - Refactoring
+
+
+def limpar_outlier(df, coluna):
+    media = df[coluna].mean()  # calculo da média
+    dp = df[coluna].std()  # desvio padrão
+    # limite superior (como não é uma curva normal fez a multiplicação por 2)
+    ls = media + 2*dp
+    li = media - 2*dp  # limite inferior
+    df = df[(df[coluna] > li) & (df[coluna] < ls)]
+
+    return df
