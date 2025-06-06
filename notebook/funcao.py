@@ -1,15 +1,10 @@
 import pandas as pd
 
-# fazendo uma limpeza nos códigos - Refactoring
 
-
-# limite_dados_faltantes é só mais um argumento
 def dropar_na(df, coluna, limite_dados_faltantes):
     if df[coluna].isna().mean() > limite_dados_faltantes:
         df = df.dropna(subset=[coluna])
     return df
-
-# fazendo uma limpeza nos códigos - Refactoring
 
 
 def limpar_outlier(df, coluna):
