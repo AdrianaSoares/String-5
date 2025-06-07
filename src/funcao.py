@@ -1,5 +1,3 @@
-import pandas as pd
-
 
 def dropar_na(df, coluna, limite_dados_faltantes):
     print('olá')
