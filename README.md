@@ -60,7 +60,8 @@ Para executar o projeto em ambiente local:
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/AdrianaSoares/projeto5vehicles.git
+git clone
+https://github.com/AdrianaSoares/projeto5vehicles.git
 
 # Criar e ativar ambiente virtual
 python -m venv vehicles_env
@@ -72,5 +73,30 @@ pip install -r requirements.txt
 
 # Executar o aplicativo
 streamlit run app.py
+
+
+## 7. Implantação em Nuvem
+O aplicativo foi implantado na plataforma **Render**, garantindo acessibilidade pública.  
+O acesso pode ser realizado através do seguinte endereço:  
+👉 https://projeto5vehicles-2.onrender.com
+
+---
+
+## 8. Conjunto de Dados
+O dataset utilizado (`vehicles_us.csv`) contém informações sobre anúncios de vendas de veículos nos Estados Unidos.  
+Embora este seja o conjunto de dados sugerido, o projeto permite substituição por qualquer arquivo CSV compatível.  
+
+---
+
+## 9. Critérios de Avaliação
+O projeto será considerado satisfatório quando atender aos seguintes requisitos:
+- Presença dos arquivos obrigatórios no repositório.  
+- Aplicativo acessível via navegador.  
+- Implementação de cabeçalho, histograma, gráfico de dispersão e elementos de interação.  
+
+---
+
+## 10. Conclusão
+Este projeto representa uma aplicação prática dos conhecimentos adquiridos em desenvolvimento de software e ciência de dados, demonstrando a capacidade de integrar ferramentas de análise, bibliotecas de visualização e plataformas de nuvem em um fluxo de trabalho completo.  
 
 
