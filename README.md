@@ -57,23 +57,22 @@ O aplicativo web contempla:
 
 ## 6. Execução Local
 Para executar o projeto em ambiente local:
-
-# Clonar o repositório
+Clonar o repositório
 git clone
 https://github.com/AdrianaSoares/projeto5vehicles.git
 
-# Criar e ativar ambiente virtual
+Criar e ativar ambiente virtual
 python -m venv vehicles_env
 source vehicles_env/bin/activate   # Linux/Mac
 vehicles_env\Scripts\activate      # Windows
 
-# Instalar dependências
+Instalar dependências
 pip install -r requirements.txt
 
-# Executar o aplicativo
+Executar o aplicativo
 streamlit run app.py
 
-
+---
 ## 7. Implantação em Nuvem
 O aplicativo foi implantado na plataforma **Render**, garantindo acessibilidade pública.  
 O acesso pode ser realizado através do seguinte endereço:  
