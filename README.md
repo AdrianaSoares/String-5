@@ -58,7 +58,6 @@ O aplicativo web contempla:
 ## 6. Execução Local
 Para executar o projeto em ambiente local:
 
-```bash
 # Clonar o repositório
 git clone
 https://github.com/AdrianaSoares/projeto5vehicles.git
