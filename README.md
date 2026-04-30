@@ -1,4 +1,4 @@
-# Projeto Sprint 5 – Desenvolvimento e Implantação de Dashboard Interativo em Nuvem
+# Projeto – Desenvolvimento e Implantação de Dashboard Interativo em Nuvem
 
 ## 1. Introdução
 Este projeto foi desenvolvido como parte da Sprint 5, com o objetivo de consolidar competências práticas em **engenharia de software**, **ciência de dados** e **desenvolvimento de aplicações web**.  
